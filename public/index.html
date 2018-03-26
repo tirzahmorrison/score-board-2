@@ -1,13 +1,79 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Score Board 2</title>
-    <link rel="stylesheet" href="/screen.css">
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <script src="/main.js" charset="utf-8"></script>
-  </body>
-</html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Score Board</title>
+  <link rel="stylesheet" href="/screen.css">
+</head>
+
+
+
+
+
+<body>
+
+
+  <section class="container">
+
+    <section id="navbar">
+      <h1>Hero's Score Board </h1>
+      <section class="quarters">
+        <p>1</p>
+        <section>
+        <button class="reset">Reset</button>
+        <button class="next">Next</button>
+      </section>
+      </section>
+    </section>
+
+    <section class="wrap">
+
+      <section class="blackpanther scoreboard">
+        <div class="top">
+          <h3>Team 1</h3>
+          <p>0</p>
+        </div>
+
+
+        <div class="middle">
+          <label for="q">Update Team 1 Name</label>
+          <input type="Search" class="myUpdate" name="q">
+          <button>Update</button>
+        </div>
+
+
+        <div class="bottom">
+          <label>Update Team 1 Score</label>
+          <input class="plusone" type="submit" value="Add 1">
+          <input class="minusone" type="submit" value="Subtract 1">
+        </div>
+      </section>
+
+
+      <section class="batman scoreboard">
+        <div class="top">
+          <h3>Team 2</h3>
+          <p>0</p>
+        </div>
+
+
+        <div class="middle">
+          <label for="q">Update Team 2 Name</label>
+          <input type="Search" class="myUpdate" name="q">
+          <button>Update</button>
+        </div>
+
+
+        <div class="bottom">
+          <label>Update Team 2 Score</label>
+          <input class="plusone" type="submit" value="Add 1">
+          <input class="minusone" type="submit" value="Subtract 1">
+        </div>
+
+      </section>
+    </section>
+
+    <section class="timer">
+      <section class="timer-text">
